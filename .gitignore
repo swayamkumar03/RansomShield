@@ -1,0 +1,35 @@
+# Compiled Java classes and Maven build output
+target/
+*.class
+
+# Log files
+*.log
+logs/
+
+# SQLite Database files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Quarantine sandbox directory
+.quarantine/
+
+# Simulated ransomware artifacts
+*.encrypted
+*.locked
+*.crypto
+*.crypted
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
